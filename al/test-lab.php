@@ -16,19 +16,19 @@
 	<textarea class="form-control" name="c" rows="3"></textarea><br><br>
     คุณเป็นแฟนคลับวงนี้มากี่ปี <select class="form-select" name="d" aria-label="Default select example"  >
   						<option selected>จำนวนปีที่ติดตาม</option>
-                        <option value="1"> น้อยกว่า 1 ปี</option>
-  						<option value="2"> 1-2 ปี</option>
-                         <option value="3"> 3-4 ปี</option>
-                         <option value="4"> มากกว่า 5 ปี</option>
+                        <option value="น้อยกว่า 1 ปี"> น้อยกว่า 1 ปี</option>
+  						<option value="1-2 ปี"> 1-2 ปี</option>
+                         <option value="3-4 ปี"> 3-4 ปี</option>
+                         <option value="มากกว่า 5 ปี"> มากกว่า 5 ปี</option>
 						</select><br>
 								<br>
 
     คุณเคยไปดูไปคอนเสิร์ตวงนี้กี่ครั้ง <select class="form-select" name="e" aria-label="Default select example"  >
   								<option selected>จำนวนครั้ง</option>
-                        		<option value="1">  1-2 ครั้ง</option>
-  								<option value="2"> 3-4 ครั้ง</option>
-                         		<option value="3"> 5-6 ครั้ง</option>
-                         		<option value="4"> มากกว่า 6 ครั้ง</option>
+                        		<option value="1-2 ครั้ง">  1-2 ครั้ง</option>
+  								<option value="3-4 ครั้ง"> 3-4 ครั้ง</option>
+                         		<option value="5-6 ครั้ง"> 5-6 ครั้ง</option>
+                         		<option value="มากกว่า 6 ครั้ง"> มากกว่า 6 ครั้ง</option>
 							</select><br>
                                      <br>
 	 วงดนตรีที่คิดว่าดังที่สุดในปัจจุบัน <input type="text" name="f" ><br><br>    

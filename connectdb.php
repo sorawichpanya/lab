@@ -10,7 +10,7 @@
 <?php
 $host = "localhost";
 $user = "root"; 
-$pass = "12345678P";
+$pass = "12345678";
 $db = "music_band";
 $conn = mysqli_connect($host,$user,$pass) or die ("เชื่อมต่อบ่ได้");
 
