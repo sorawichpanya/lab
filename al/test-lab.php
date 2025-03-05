@@ -52,10 +52,6 @@
 		echo "alert('เพี่มถูกจ้า');";
 		echo "</script>";
 
-		
-        while ($data = mysqli_fetch_array($rs)) {
-		echo $data['m_name'];
-	}
 ?>
 </body>
 </html>
