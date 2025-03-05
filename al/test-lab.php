@@ -52,8 +52,8 @@
 		echo "alert('เพี่มถูกจ้า');";
 		echo "</script>";
 
-	$query = "SELECT * FROM `favorite_music_band`";
-	echo $query:
+	$query = $mysqli->query("SELECT * FROM `favorite_music_band`");
+	echo $query;
 	}
 ?>
 </body>
