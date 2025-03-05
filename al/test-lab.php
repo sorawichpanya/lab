@@ -38,7 +38,7 @@
  
 <?php
 	include_once("connectdb.php");
-	$sql = "SELECT * FROM `favorite_music_band` ORDER BY `p_id` ASC";
+	$sql = "SELECT * FROM `favorite_music_band` ORDER BY `m_id` ASC";
 	$rs = mysqli_query($conn , $sql);
 
 	if($_SERVER['REQUEST_METHOD'] === 'POST'){
