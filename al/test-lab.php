@@ -54,5 +54,15 @@
 		echo "</script>";
 	}
 ?>
+<?php
+include_once("connectdb.php");
+	$sql = "SELECT * FROM `favorite_music_band` ORDER BY `m_id` ASC";
+	$rs = mysqli_query($conn , $sql);
+?>
+<?php
+        while ($data = mysqli_fetch_array($rs)) {
+?>
+		<?php echo $data['m_name']; ?>
+
 </body>
 </html>
