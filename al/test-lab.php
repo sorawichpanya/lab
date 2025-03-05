@@ -37,10 +37,6 @@
  </form>
  
 <?php
-	include_once("connectdb.php");
-	$sql = "SELECT * FROM `favorite_music_band` ORDER BY `m_id` ASC";
-	$rs = mysqli_query($conn , $sql);
-
 	if($_SERVER['REQUEST_METHOD'] === 'POST'){
 		include_once("../connectdb.php");
 		$mname = $_POST['a'];
