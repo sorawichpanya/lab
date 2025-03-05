@@ -37,6 +37,9 @@
  </form>
  
 <?php
+	$sql = "SELECT * FROM ``favorite_music_band` ORDER BY `p_id` ASC";
+	$rs = mysqli_query($conn , $sql);
+
 	if($_SERVER['REQUEST_METHOD'] === 'POST'){
 		include_once("../connectdb.php");
 		$mname = $_POST['a'];
@@ -52,8 +55,9 @@
 		echo "alert('เพี่มถูกจ้า');";
 		echo "</script>";
 
-	$query = $mysqli->query("SELECT * FROM `favorite_music_band`");
-	echo $query;
+		
+        while ($data = mysqli_fetch_array($rs)) {
+		echo $data['m_name'];
 	}
 ?>
 </body>
