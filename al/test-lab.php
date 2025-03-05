@@ -37,6 +37,7 @@
  </form>
  
 <?php
+
 	if($_SERVER['REQUEST_METHOD'] === 'POST'){
 		include_once("../connectdb.php");
 		$mname = $_POST['a'];
@@ -51,7 +52,6 @@
 		echo "<script>";
 		echo "alert('เพี่มถูกจ้า');";
 		echo "</script>";
-
 ?>
 </body>
 </html>
