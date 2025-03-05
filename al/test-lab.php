@@ -53,7 +53,7 @@
 		echo "</script>";
 
 	$query = $mysqli->query("SELECT * FROM `favorite_music_band`");
-	
+	echo $query:
 	}
 ?>
 </body>
