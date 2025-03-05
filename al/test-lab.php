@@ -52,6 +52,7 @@
 		echo "<script>";
 		echo "alert('เพี่มถูกจ้า');";
 		echo "</script>";
+	}
 ?>
 </body>
 </html>
