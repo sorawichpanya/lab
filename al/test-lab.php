@@ -51,6 +51,28 @@
 		echo "<script>";
 		echo "alert('เพี่มถูกจ้า');";
 		echo "</script>";
+
+	$query = "SELECT * FROM favorite_music_band";
+	echo "<b> <center>Database Output</center> </b> <br> <br>";
+
+	if ($result = $mysqli->query($query)) {
+
+    while ($row = $result->fetch_assoc()) {
+        $field1name = $row["m_name"];
+        $field2name = $row["m_fav"];
+        $field3name = $row["m_ex"];
+        $field4name = $row["m_year"];
+        $field5name = $row["m_con"];
+		$field6name = $row["m_pre"];
+
+        echo '<b>'.$field1name.$field2name.'</b><br />';
+        echo $field5name.'<br />';
+        echo $field5name.'<br />';
+        echo $field5name;
+    }
+
+	/*freeresultset*/
+	$result->free();
 	}
 ?>
 </body>
