@@ -61,6 +61,7 @@ include_once("connectdb.php");
 ?>
 <?php
         while ($data = mysqli_fetch_array($rs)) {
+		}
 ?>
 		<?php echo $data['m_name']; ?>
 
